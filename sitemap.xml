@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url><loc>https://tiansh.github.io/</loc></url>
+	<url><loc>https://tiansh.github.io/2048/</loc></url>
+	<url><loc>https://tiansh.github.io/2048/zhong/</loc></url>
+	<url><loc>https://tiansh.github.io/2048/zhong/seal/</loc></url>
+	<url><loc>https://tiansh.github.io/2048s/</loc></url>
+	<url><loc>https://tiansh.github.io/rbb/</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_player_no_ssl</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_player_no_ssl/</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_radio_danmuku</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_radio_danmuku/</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_show_hidden_bangumi</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_show_pages/</loc></url>
+	<url><loc>https://tiansh.github.io/us-blbl/bilibili_small_window_auto_player_fullwin</loc></url>
+	<url><loc>https://tiansh.github.io/us-danmaku/acfun/</loc></url>
+	<url><loc>https://tiansh.github.io/us-danmaku/bilibili/</loc></url>
+	<url><loc>https://tiansh.github.io/us-rr/xiaonei_auto_return_visits/</loc></url>
+	<url><loc>https://tiansh.github.io/us-rr/xiaonei_timer/</loc></url>
+  <url>
+    <loc>https://tiansh.github.io/yawf/zh-cn.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://tiansh.github.io/yawf/zh-tw.html" />
+    <xhtml:link rel="alternate" hreflang="zh-hk" href="https://tiansh.github.io/yawf/zh-hk.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tiansh.github.io/yawf/zh-en.html" />
+  </url>
+  <url>
+    <loc>https://tiansh.github.io/yawf/zh-tw.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tiansh.github.io/yawf/zh-cn.html" />
+    <xhtml:link rel="alternate" hreflang="zh-hk" href="https://tiansh.github.io/yawf/zh-hk.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tiansh.github.io/yawf/zh-en.html" />
+  </url>
+  <url>
+    <loc>https://tiansh.github.io/yawf/zh-hk.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tiansh.github.io/yawf/zh-cn.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://tiansh.github.io/yawf/zh-tw.html" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://tiansh.github.io/yawf/zh-en.html" />
+  </url>
+  <url>
+    <loc>https://tiansh.github.io/yawf/en.html</loc>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://tiansh.github.io/yawf/zh-cn.html" />
+    <xhtml:link rel="alternate" hreflang="zh-tw" href="https://tiansh.github.io/yawf/zh-tw.html" />
+    <xhtml:link rel="alternate" hreflang="zh-hk" href="https://tiansh.github.io/yawf/zh-hk.html" />
+  </url>
+	<url><loc>https://tiansh.github.io/yawf/convert_wcf.html</loc></url>
+	<url><loc>https://tiansh.github.io/yawf/wcf_convert.html</loc></url>
+	<url><loc>https://tiansh.github.io/yawf/weibo_search.html</loc></url>
+  <url><loc>https://tiansh.github.io/lqbz/ppl/</loc></url>
+  <url><loc>https://tiansh.github.io/lqbz/tjmj/</loc></url>
+  <url><loc>https://tiansh.github.io/lqbz/sp/</loc></url>
+  <url><loc>https://tiansh.github.io/us-else/zhihu_visitor/</loc></url>
+  <url><loc>https://tiansh.github.io/us-else/web_wechat_fast_reply/</loc></url>
+  <url><loc>https://tiansh.github.io/us-else/zhihu_shorter/</loc></url>
+  <url><loc>http://tiansh.github.io/us-guide/install.html</loc></url>
+</urlset>

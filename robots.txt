@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap:https://tiansh.github.io/sitemap.xml
