@@ -1,0 +1,203 @@
+set nocompatible
+behave mswin
+
+" J <-> T
+noremap t j
+noremap T J
+noremap j t
+noremap J T
+" K <-> N
+noremap n k
+noremap N K
+noremap k n
+noremap K N
+" L <-> S
+noremap l s
+noremap L S
+noremap S L
+noremap s l
+
+" 总是使用鼠标
+set mouse=a
+" 默认使用UTF8编码，检测编码优先检查UTF8
+" 尽量是中文
+set encoding=utf-8
+set fileencodings=utf-8,ucs-bom,chinese
+set fileencoding=utf-8
+set ambiwidth=double
+" tab宽度为2，一次缩进两个空格
+set shiftwidth=2
+set tabstop=2
+set softtabstop=2
+set expandtab
+" 不自动换行
+set nowrap
+set whichwrap+=<,>,[,]
+" 显示行号
+set number
+" 缩进
+set autoindent
+set cindent
+set cinoptions=l1+1s(1s
+" 启动界面无提示信息
+set shortmess+=I
+" 退格可以删除换行符等
+set backspace=indent,eol,start
+" 写入的时候无备份文件
+set nobackup
+set nowritebackup
+" 允许类型插件
+filetype plugin indent on
+" 备份文件目录
+set directory=.,T:\Temp,C:\Users\ts\Temp
+" 代码折叠
+set foldmethod=indent
+set foldlevelstart=99
+" 底部水平滚动条
+set guioptions+=b
+
+" 语法高亮
+syntax on
+syntax reset
+set background=dark
+hi clear
+
+" 普通文本与行号
+hi Normal         guifg=#FFFFFF ctermfg=White     guibg=#0B161D ctermbg=Black
+hi LineNr         guifg=#FFFFFF ctermfg=White     guibg=#000000 ctermbg=Black
+" 注释
+hi Comment        guifg=#39A6E5 ctermfg=Blue      guibg=#0B161D ctermbg=Black
+" 字符串与字符
+hi String         guifg=#56E539 ctermfg=Green     guibg=#0B161D ctermbg=Black
+hi Character      guifg=#ACE539 ctermfg=Green     guibg=#0B161D ctermbg=Black
+" 数字与布尔值
+hi Number         guifg=#FF80FF ctermfg=Magenta   guibg=#0B161D ctermbg=Black
+hi Float          guifg=#FF40FF ctermfg=Magenta   guibg=#0B161D ctermbg=Black
+hi Boolean        guifg=#FFBFFF ctermfg=Red       guibg=#0B161D ctermbg=Black
+" 标识符
+hi Identifier     guifg=#E5E5AC ctermfg=Yellow    guibg=#0B161D ctermbg=Black gui=bold
+" 函数名
+hi Function       guifg=#E5E573 ctermfg=Yellow    guibg=#0B161D ctermbg=Black gui=bold
+" 语句关键字
+hi Statement      guifg=#ff8800 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Conditional    guifg=#ff7f00 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Statement      guifg=#ff8800 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Conditional    guifg=#ff7f00 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Label          guifg=#ffaa00 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Repeat         guifg=#ff9500 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Exception      guifg=#ffcc00 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Keyword        guifg=#ff6a00 ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+hi Operator       guifg=#ffe4bf ctermfg=Brown     guibg=#0B161D ctermbg=Black gui=bold
+" 预处理指令
+hi PreProc        guifg=#ff4040 ctermfg=Red       guibg=#0B161D ctermbg=Black
+hi Include        guifg=#ff4070 ctermfg=Red       guibg=#0B161D ctermbg=Black
+hi Define         guifg=#ff5740 ctermfg=Red       guibg=#0B161D ctermbg=Black
+hi Macro          guifg=#ff5040 ctermfg=Red       guibg=#0B161D ctermbg=Black
+hi PreCondit      guifg=#ff7040 ctermfg=Red       guibg=#0B161D ctermbg=Black
+" 类型
+hi Type           guifg=#FFFF7F ctermfg=Yellow    guibg=#0B161D ctermbg=Black gui=bold
+hi Structure      guifg=#ffff40 ctermfg=Yellow    guibg=#0B161D ctermbg=Black gui=bold
+hi StorageClass   guifg=#ffea80 ctermfg=Yellow    guibg=#0B161D ctermbg=Black gui=bold
+hi typedef        guifg=#eaff80 ctermfg=Yellow    guibg=#0B161D ctermbg=Black gui=bold
+" 特殊符号
+hi Special        guifg=#BFBFBF ctermfg=LightGray guibg=#0B161D ctermbg=Black
+hi SpecialChar    guifg=#007F00 ctermfg=DarkGreen guibg=#0B161D ctermbg=Black
+hi Tag            guifg=#d9f5ff ctermfg=LightGray guibg=#0B161D ctermbg=Black
+hi Delimiter      guifg=#d9ffff ctermfg=LightGray guibg=#0B161D ctermbg=Black
+hi SpecialComment guifg=#40b9ff ctermfg=DarkBlue  guibg=#0B161D ctermbg=Black
+hi Debug          guifg=#BFBFBF ctermfg=LightGray guibg=#0B161D ctermbg=Black
+" 忽略
+hi Ignore         guifg=#CCCCCC ctermfg=LightGray guibg=#0B161D ctermbg=Black
+" 下划线
+hi Underlined     term=underline
+" 错误
+hi Error          guifg=#FFFF00 ctermfg=Yellow    guibg=#FF0000 ctermbg=Red
+" 注意关键字
+hi Todo           guifg=#39e5e5 ctermfg=Cyan      guibg=#0B161D ctermbg=Black
+" 自动补全下拉框
+hi Pmenu          guifg=#333333 ctermfg=DarkGray  guibg=#CCCCCC ctermbg=LightGrey
+hi PmenuSel       guifg=#000000 ctermfg=Black     guibg=#33cccc ctermbg=LightCyan
+" 代码折叠
+hi Folded         guifg=#0F4C70 ctermfg=DarkBlue  guibg=#050B0E ctermbg=Black
+" 光标所在行
+set cursorline
+hi CursorLine     guibg=#162C3A ctermbg=Black
+" 搜索高亮
+hi Search         guifg=#e5e5e5 ctermfg=White     guibg=#808020 ctermbg=Brown
+" 不存在的文本
+hi NonText        guifg=#0B161D ctermfg=LightGray
+
+" 窗口状态行
+hi StatusLine     guifg=#FFFFFF ctermfg=White     guibg=#444444 ctermbg=DarkGray gui=bold
+hi StatusLineNC   guibg=#AAAAAA ctermbg=LightGray guifg=#666666 ctermfg=DarkGray
+
+" 标签页栏
+hi TabLineSel     guifg=#FFFFFF ctermfg=White     guibg=#222222 ctermbg=DarkGray
+hi TabLine        guifg=#AAAAAA ctermfg=LightGray guibg=#333333 ctermbg=DarkGray
+hi TabLineFill    guifg=#333333 ctermfg=DarkGray  guibg=#333333 ctermbg=Black
+hi Title          guifg=#cccc99 ctermfg=LightGray
+
+" 自动将窗口最大化
+autocmd GUIEnter * simalt ~x
+
+" 隐藏菜单
+set guioptions-=m
+set guioptions-=T
+
+" F2 保存
+function F2_Save()
+  try
+    :w!
+  catch
+    :browse w!
+  endtry
+endfunction
+map  <silent> <F2>  :call F2_Save()<CR>
+imap <silent> <expr> <F2> F2_Save()
+
+" F3 打开
+map  <silent> <F3>   :browse confirm tabnew<CR>
+imap <silent> <F3> <ESC>:browse confirm tabnew<CR>
+
+" F4 新标签页
+map <silent> <F4> :tabnew<CR>
+imap <silent> <F4> <ESC>:tabnew<CR>
+" Shift-F4 关闭标签页 
+map <silent> <S-F4> :q<CR>
+imap <silent> <S-F4> <ESC>:q<CR>
+" Crtl-Shift-F4 强制关闭标签页
+map <silent> <C-S-F4> :q!<CR>
+imap <silent> <C-S-F4> <ESC>:q!<CR>
+
+" F5 左面一个标签页
+map <silent> <F5> :tabp<CR>
+imap <silent> <F5> <ESC>:tabp<CR>
+" F6 右面一个标签页
+map <silent> <F6> :tabn<CR>
+imap <silent> <F6> <ESC>:tabn<CR>
+
+" F10 显示/隐藏菜单
+function F10_showMenu()
+  if &guioptions =~# 'T'
+    set guioptions-=T
+    set guioptions-=m
+  else
+    set guioptions+=T
+    set guioptions+=m
+  endif
+  return ''
+endfunction
+map  <silent> <F10>  :call F10_showMenu()<CR>
+imap <silent> <expr> <F10> F10_showMenu()
+
+" 选区相关的快捷键
+vnoremap <S-Del>    "+x
+vnoremap <C-Insert> "+y
+vnoremap <Del>      "_dP
+vnoremap <BS>       "_dP
+vnoremap r          "_dP
+map      <S-Insert> "+gP
+cmap     <S-Insert> <C-R>+
+
+" makefile使用Tab而非空格
+autocmd FileType makefile setlocal noexpandtab
